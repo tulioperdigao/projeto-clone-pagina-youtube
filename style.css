@@ -156,6 +156,7 @@ h1 {
 
 main {
     display: flex;
+    justify-content: space-around;
 }
 
 aside {
