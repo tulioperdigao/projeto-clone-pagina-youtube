@@ -80,6 +80,7 @@ header {
 }
 
 .actual-video {
+    max-width: 952px;
     margin: 30px;
     display: flex;
 }
@@ -89,3 +90,81 @@ header {
     height: 537px;
 }
 
+h1 {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+#channel-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#canal {
+    display: flex;
+    align-items: center;
+}
+
+#canal:hover {
+    cursor: pointer;
+}
+
+#stats{
+    font-size: 15px;
+    padding: 0px 15px;
+}
+
+#subscribe-button {
+    background-color: #CC0000;
+    color: white;
+    width: 159px;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+#subscribe-button:hover {
+    cursor: pointer;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-center p {
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.flex-center:hover {
+    cursor: pointer;
+}
+
+#descricao {
+    font-size: 14px;
+    width: 510px;
+}
+
+.color-descricao {
+    color: #515151;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+aside img:hover {
+    cursor: pointer;
+}
